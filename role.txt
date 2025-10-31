@@ -1,0 +1,9 @@
+Enter names for roles pn project
+
+Front-End (HTML, CSS:  <name> , <name>
+Back-End (Javascript): <name> , <name>
+
+           
+AI Resource: (if used ->)
+              <name of AI> <website link>
+              <Enter the RAW queries and the results provided>
