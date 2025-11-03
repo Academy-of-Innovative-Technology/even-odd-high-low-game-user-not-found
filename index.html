@@ -8,6 +8,39 @@
 </head>
 <body>
   <main class="container">
+<h1>Even-Odd High-Low Game</h1>
+<div class="sub">
+  <p>Computer picks a secret number from 0 to 1,000. Enter Guess; you'll get higher lower hints until correct, Bonus Hint: even/odd.</p>
+</div>
+
+<input type="number" id="guess" min="0" max="1000" placeholder="0–1000">
+<Button>Submit guess </Button>
+<Button>Retry</Button>
+<Button>Give up</Button>
+<Button>Reset all</Button>
+
+<div class="big" id="card">
+          <div class="confetti" id="confetti" aria-hidden="true"></div>
+          <div class="num" id="tries">3</div>
+          <div class="hint" id="hint">Tries this round</div>
+        </div>
+
+<div class="Hint">
+<label><input type="checkbox" id="parity" checked=""> Show even/odd hint</label>
+
+</div>
+
+<div class="score" aria-live="polite">
+          <div class="chip"><b>Wins</b><div class="val" id="wins">0</div></div>
+          <div class="chip"><b>Losses</b><div class="val" id="losses">0</div></div>
+          <div class="chip"><b>Rounds</b><div class="val" id="rounds">0</div></div>
+          <div class="chip"><b>Streak</b><div class="val" id="streak">0</div></div>
+          <div class="chip"><b>Retries</b><div class="val" id="retries">0</div></div>
+        </div>
+
+
+
+
 
   </main>
 </body>
