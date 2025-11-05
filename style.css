@@ -31,3 +31,13 @@ padding: 40px;
 border-radius: 20px;
 
 }
+
+.panel{
+    color: whitesmoke;
+  max-width: 900px;
+margin: 0 auto;
+background-color: rgb(8, 5, 34);
+;
+padding: 40px;
+border-radius: 20px;  
+}

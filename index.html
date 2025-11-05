@@ -22,7 +22,7 @@
 
 <div class="big" id="card">
           <div class="confetti" id="confetti" aria-hidden="true"></div>
-          <div class="num" id="tries">3</div>
+          <div class="num" id="tries">0</div>
           <div class="hint" id="hint">Tries this round</div>
         </div>
 
@@ -40,7 +40,15 @@
         </div>
 
 
-
+<aside class="panel" aria-live="polite">
+        <div class="result" id="resultBox">
+          <div class="img pop" id="resultImg" aria-hidden="true"><svg viewBox="0 0 128 128" width="86" height="86"><defs><radialGradient id="g" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#6ee7ff"></stop><stop offset="100%" stop-color="#6ee7ff" stop-opacity="0"></stop></radialGradient></defs><rect width="128" height="128" rx="24" fill="#08142d"></rect><circle cx="64" cy="64" r="52" fill="url(#g)"></circle><path d="M64 24l7 18 19 4-15 12 4 20-15-11-15 11 4-20-15-12 19-4z" fill="#a78bfa"></path></svg></div>
+          <div>
+            <div id="resultText">Enter a number to begin!</div>
+            <div id="lastHint" style="opacity:.9; margin-top:6px"></div>
+          </div>
+        </div>
+      </aside>
 
 
   </main>
