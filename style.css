@@ -1,7 +1,7 @@
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 padding: 40px 20px;
-background: cornflowerblue;
+background: rgb(190, 209, 245);
 }
 
 .container {
@@ -14,10 +14,20 @@ border-radius: 20px;
 }
 
 button{
-background-color: rgba(162, 255, 235, 0.546);
+background-color: rgba(216, 216, 233, 0.475);
 }
 
 .num{
 display: flex;
 justify-content: center;
+}
+
+.num{
+max-width: 900px;
+margin: 0 auto;
+background-color: rgba(186, 187, 227, 0.475);
+;
+padding: 40px;
+border-radius: 20px;
+
 }
