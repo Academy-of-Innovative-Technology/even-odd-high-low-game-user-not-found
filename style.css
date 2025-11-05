@@ -1,20 +1,27 @@
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 padding: 40px 20px;
-background: rgb(190, 209, 245);
+background: #333;
+color: whitesmoke;
 }
 
 .container {
 max-width: 900px;
 margin: 0 auto;
-background-color: white;
+background-color: #1d224d;
 padding: 40px;
 border-radius: 20px;
 
 }
 
 button{
-background-color: rgba(216, 216, 233, 0.475);
+max-width: 200px;
+margin: 0 auto;
+background-color: #1d224d;
+padding: 20px;
+border-radius: 20px;
+color: whitesmoke;
+
 }
 
 .num{
@@ -25,7 +32,7 @@ justify-content: center;
 .num{
 max-width: 900px;
 margin: 0 auto;
-background-color: rgba(186, 187, 227, 0.475);
+background-color: #ddd;
 ;
 padding: 40px;
 border-radius: 20px;
@@ -33,10 +40,10 @@ border-radius: 20px;
 }
 
 .panel{
-    color: whitesmoke;
+    color: black;
   max-width: 900px;
 margin: 0 auto;
-background-color: rgb(8, 5, 34);
+background-color:#ddd;
 ;
 padding: 40px;
 border-radius: 20px;  
