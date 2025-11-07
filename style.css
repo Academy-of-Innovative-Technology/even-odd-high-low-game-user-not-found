@@ -1,8 +1,9 @@
 body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding: 40px 20px;
-background: #333;
-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  min-height: 100vh;
 }
 
 .container {
@@ -14,43 +15,51 @@ border-radius: 20px;
 
 }
 
-button{
-max-width: 200px;
-margin: 0 auto;
-background-color: #1d224d;
-padding: 20px;
-border-radius: 20px;
-color: whitesmoke;
-
+.chip {
+ padding: 14px 24px;
+  font-size: 15px;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  background-color: whitesmoke;
+  color: black;
 }
 
 
+
+button {
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+border: none;
+}
+
+.num {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
 .num{
-display: flex;
+	display: flex;
 justify-content: center;
-}
-
-.num{
 max-width: 900px;
-margin: 0 auto;
-background-color: #ddd;
-;
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 padding: 40px;
 border-radius: 20px;
+  margin-top: 30px;
 
 }
 
-.panel{
-    color: whitesmoke;
-  max-width: 900px;
-margin: 0 auto;
-background-color:#ddd;
-font-size: 20px;
-padding: 40px; 
- background:var(--panel); 
-	border:1px solid rgba(255,255,255,.08); 
-	border-radius:18px; 
-	padding:18px
+.panel {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
 }
 
 
@@ -86,7 +95,9 @@ justify-content:center;
 }
 
 
-h1{
-  display: flex;
-justify-content:center;
+h1 {
+  text-align: center;
+  color: #667eea;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
