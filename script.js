@@ -156,5 +156,5 @@ guessInput.addEventListener('keypress', (e) => { // Listen for key press
   }
 });
 
-// Start first game when page loads
+// Start first game when page loads 
 initGame();
